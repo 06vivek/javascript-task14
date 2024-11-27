@@ -10,7 +10,7 @@ function employee1(){
 function employee2(){
     return new Promise((resolve,reject)=>{
       setTimeout(() => {
-          resolve(["hulk","spiderman","ironman","captan america"])
+          resolve(["hulk","spiderman","ironman","captain america"])
       },1000);
     })
 }
